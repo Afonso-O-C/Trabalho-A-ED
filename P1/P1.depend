@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1791466699 source:c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p1\main.cpp
+	<iostream>
+	"Elemento.h"
+
+1791466669 source:c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p1\src\elemento.cpp
+	"Elemento.h"
+
+1791466817 c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p1\include\elemento.h
+	<iostream>
+
