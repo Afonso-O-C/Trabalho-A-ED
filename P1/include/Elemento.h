@@ -9,7 +9,10 @@ class Elemento
 {
     public:
         virtual void imprimirInfo() const =0;
+
+
         void getID() const;
+
 
         virtual ~Elemento();
 

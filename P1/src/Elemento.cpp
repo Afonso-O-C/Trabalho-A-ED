@@ -7,5 +7,6 @@ void Elemento::getID() const{
 
 Elemento::~Elemento()
 {
+    cout << " Encerrando objeto.\n";
     //dtor
 }
