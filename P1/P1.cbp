@@ -24,6 +24,7 @@
 			<Add option="-Wall" />
 		</Compiler>
 		<Unit filename="include/Elemento.h" />
+		<Unit filename="include/slno.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Elemento.cpp" />
 		<Extensions />

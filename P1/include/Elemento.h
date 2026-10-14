@@ -10,16 +10,15 @@ class Elemento
     public:
         virtual void imprimirInfo() const =0;
 
-
         void getID() const;
 
 
         virtual ~Elemento();
 
     protected:
-
-    private:
         int ID;
+    private:
+
 };
 
 #endif // ELEMENTO_H
