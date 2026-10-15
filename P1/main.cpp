@@ -17,9 +17,12 @@ int main(){
     teste.addf(12);
     teste.addi(11);
     //teste.busca(12);
-    teste.get(0);
-    teste.get(1);
-    teste.get(2);
+    cout << teste.get(0) << " " << teste.get(1) << " " << teste.get(2) << endl;
+    teste.set(0,67);
+    cout << teste.get(0) << " " << teste.get(1) << " " << teste.get(2) << endl;
+    teste.removef();
+    teste.addi(66);
+    cout << teste.get(0) << " " << teste.get(1) << " " << teste.get(2) << endl;
     }
     //lista_no<bool> testes2;
 

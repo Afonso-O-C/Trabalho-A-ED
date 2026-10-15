@@ -20,20 +20,20 @@ public:
         this->tam=0;
         this->limit=10;
         this->values=new T[limit];
-      cout << " > Lista Não Ordenada criada(Type 0)\n";
+      cout << " > Lista criada(Type 0)\n";
     };
 
     lista_no(int qtd){//Construção de tamanho certo, tipo 1
         this->tam=0;
         this->limit=qtd;
         this->values=new T[limit];
-        cout << " > Lista Não Ordenada criada(Type 1)\n";
+        cout << " > Lista criada(Type 1)\n";
     };
 
     //Destructor destruidor de destruidores
     ~lista_no(){
         delete[] values;
-        cout << " > Lista Não Ordenada destruída\n";
+        cout << " > Lista destruída\n";
     };
 
     //Adicionando ao final
@@ -49,7 +49,7 @@ public:
     };
 
     //Adicionar ao cmc
-    void addi(T nuevo){
+    void addfalsoi(T nuevo){
         if(tam<limit){
             //Aqui é um truque meio sujo, mas a ordem não importa e queremos a melhor complexidade
             T temp=values[0];
@@ -67,22 +67,69 @@ public:
         }
     }
 
-    //Operação de busca abaixo
-    /*int busca(T any){
-        for(int i=0;i<tam;i++){
-            if(values[i]==T){
-                cout << " > Valor encontrado...\n";
-                return i;
+    //Adicionar ao cmc com deslocamento
+    void addi(T nuevo){
+        if(tam<limit){
+            for(int i=tam;i>0;i--){
+                values[i]=values[i-1];
             }
+            values[0]=nuevo;
+            tam++;
+            cout << " > Valor Adicionado\n";
         }
-        cout << " Erro > Valor não encontrado\n";
-        return -1;
-    }//Lembrar de adicionar coperações de comparação em cada classe para isso aqui funcionar, nas classes elementos
-*/
-    //Getters apenas para teste:
-    void get(int id){
-        cout << values[id] << endl;
+        else{
+            cout << " Erro > Lista Cheia!\n";
+        }
+    };
+
+    //Getters:
+
+    T get(int id) const{
+        return values[id];
+    };
+    int getTam()const{
+        return tam;
+    };
+    int getLimit()const{
+        return limit;
+    };
+
+    //Setters:
+    void set(int id, T nuevo){
+        values[id]=nuevo;
     }
+    void set(int nuevo){
+        tam=nuevo;
+    }
+    //Não vou criar um setter para limit, pois acho que não vai ser preciso, já que meio que minha lista vai avisar se vai estar cheia e não quero alterar isso
+
+    //Remoções
+    void removef(){
+        if(tam>0){
+            tam--;
+            cout << " > Valor Removido\n";
+        }
+        else{
+            cout << " Erro > Lista vazia\n";
+        }
+    }
+
+    //Remoção já com deslocamento, não terá falsa remoção, triste
+    void removei(){
+        if(tam>0){
+            for(int i=0;i<tam;i++){
+                values[i]=values[i+1];
+            }
+            tam--;
+            cout << " > Valor Removido\n";
+        }
+        else{
+            cout << " Erro > Lista vazia\n";
+        }
+    }
+
+    //Fim do nosso template, arma principal desse programa
+
 };
 
 
