@@ -44,10 +44,45 @@ public:
             cout << " > Valor Adicionado\n";
         }
         else{
-            cout << " > Lista Cheia!\n";
+            cout << " Erro > Lista Cheia!\n";
         }
     };
 
+    //Adicionar ao cmc
+    void addi(T nuevo){
+        if(tam<limit){
+            //Aqui é um truque meio sujo, mas a ordem não importa e queremos a melhor complexidade
+            T temp=values[0];
+            values[0]=nuevo;
+            if(tam>0){
+                addf(temp);
+            }
+            else{
+                tam++;
+                cout << " > Valor Adicionado\n";
+            }
+        }
+        else{
+            cout << " Erro > Lista Cheia!\n";
+        }
+    }
+
+    //Operação de busca abaixo
+    /*int busca(T any){
+        for(int i=0;i<tam;i++){
+            if(values[i]==T){
+                cout << " > Valor encontrado...\n";
+                return i;
+            }
+        }
+        cout << " Erro > Valor não encontrado\n";
+        return -1;
+    }//Lembrar de adicionar coperações de comparação em cada classe para isso aqui funcionar, nas classes elementos
+*/
+    //Getters apenas para teste:
+    void get(int id){
+        cout << values[id] << endl;
+    }
 };
 
 
