@@ -1,5 +1,5 @@
 #include<iostream>
-#include"Elemento.h"
+#include"Book.h"
 #include"slno.h"
 
 using namespace std;
@@ -12,17 +12,8 @@ int main(){
     //teste.getID();
     int d=100;
     {
-    lista_no<int> teste(d);
-    teste.addi(13);
-    teste.addf(12);
-    teste.addi(11);
-    //teste.busca(12);
-    cout << teste.get(0) << " " << teste.get(1) << " " << teste.get(2) << endl;
-    teste.set(0,67);
-    cout << teste.get(0) << " " << teste.get(1) << " " << teste.get(2) << endl;
-    teste.removef();
-    teste.addi(66);
-    cout << teste.get(0) << " " << teste.get(1) << " " << teste.get(2) << endl;
+    Book livro(23,"Jão","Pedro");
+    livro.imprimirInfo();
     }
     //lista_no<bool> testes2;
 

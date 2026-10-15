@@ -1,12 +1,20 @@
 #include "Elemento.h"
 
-void Elemento::getID() const{
-    cout << this->ID;
+Elemento::Elemento(int _id){
+    ID=_id;
+    cout << " > Objeto criado\n";
 }
 
+int Elemento::getID() const{
+    return ID;
+}
+
+void Elemento::setID(int nuevo){
+    ID=nuevo;
+}
 
 Elemento::~Elemento()
 {
-    cout << " Encerrando objeto.\n";
+    cout << " > Encerrando objeto.\n";
     //dtor
 }

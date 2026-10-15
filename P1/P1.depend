@@ -1,15 +1,22 @@
 # depslib dependency file v1.0
-1792062888 source:c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p1\main.cpp
+1792067025 source:c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p1\main.cpp
 	<iostream>
-	"Elemento.h"
+	"Book.h"
 	"slno.h"
 
-1792061716 source:c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p1\src\elemento.cpp
+1792065632 source:c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p1\src\elemento.cpp
 	"Elemento.h"
 
-1792061716 c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p1\include\elemento.h
+1792067121 c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p1\include\elemento.h
+	<iostream>
+	<string>
+
+1792063741 c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p1\include\slno.h
 	<iostream>
 
-1792063381 c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p1\include\slno.h
-	<iostream>
+1792067009 source:c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p1\src\book.cpp
+	"Book.h"
+
+1792067009 c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p1\include\book.h
+	<Elemento.h>
 
