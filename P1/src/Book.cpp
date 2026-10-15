@@ -14,6 +14,6 @@ void Book::imprimirInfo() const{
 
 Book::~Book()
 {
-
+    cout << " > Livro Retirado\n";
     //dtor
 }

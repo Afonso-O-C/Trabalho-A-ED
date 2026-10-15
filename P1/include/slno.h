@@ -25,7 +25,12 @@ public:
 
     lista_no(int qtd){//Construção de tamanho certo, tipo 1
         this->tam=0;
-        this->limit=qtd;
+        if(qtd!=0){
+            this->limit=qtd;
+        }
+        else{
+            this->limit=10;
+        }
         this->values=new T[limit];
         cout << " > Lista criada(Type 1)\n";
     };
@@ -101,7 +106,11 @@ public:
     void set(int nuevo){
         tam=nuevo;
     }
-    //Não vou criar um setter para limit, pois acho que não vai ser preciso, já que meio que minha lista vai avisar se vai estar cheia e não quero alterar isso
+    void setLimit(int nuevo){//Aqui não posso usar fora da criação, se não perdemos muita coisa
+        delete[] values;
+        values=new T[nuevo];
+        limit=nuevo;
+    }
 
     //Remoções
     void removef(){

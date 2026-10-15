@@ -3,6 +3,7 @@
 
 #include<iostream>
 #include<string>//Adicionada aqui por essa ligar com todas as outras, quase todas as outras
+#include<slno.h>
 
 using namespace std;
 
@@ -16,6 +17,8 @@ class Elemento
         int getID() const;
 
         void setID(int nuevo);
+
+        bool operator==(const Elemento& outro) const;
 
         virtual ~Elemento();
 

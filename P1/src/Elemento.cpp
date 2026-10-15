@@ -13,6 +13,10 @@ void Elemento::setID(int nuevo){
     ID=nuevo;
 }
 
+bool Elemento::operator==(const Elemento& outro) const{
+    return getID()==outro.getID();
+}
+
 Elemento::~Elemento()
 {
     cout << " > Encerrando objeto.\n";

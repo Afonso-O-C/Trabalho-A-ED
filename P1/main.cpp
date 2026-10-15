@@ -2,6 +2,7 @@
 #include"Book.h"
 #include"slno.h"
 
+
 using namespace std;
 
 int main(){
@@ -14,6 +15,10 @@ int main(){
     {
     Book livro(23,"Jão","Pedro");
     livro.imprimirInfo();
+    Book livro2(24,"Jonas","Dona Bet");
+    if(livro==livro2){
+        cout << "\nFunciona\n";
+    }
     }
     //lista_no<bool> testes2;
 

@@ -25,12 +25,6 @@ class Book : public Elemento
         //Override
         void imprimirInfo() const;
 
-
-
-
-
-
-
         ~Book();
 
 };
