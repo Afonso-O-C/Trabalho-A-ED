@@ -21,23 +21,34 @@ void Pilha::desempilha(){
     pilha.removef();
 };
 
-Book Pilha::inTopo(){
+Book Pilha::inTopo() const{
     Book temp=pilha.get(pilha.getLimit()-1);
     temp.imprimirInfo();
     return temp;
 };
 
-bool Pilha::cheia(){
+bool Pilha::cheia() const{
     if(pilha.getTam()==pilha.getLimit()){
         cout << " > Pilha Cheia\n";
     }
     return pilha.getTam()==pilha.getLimit();
 };
 
-bool Pilha::vazia(){
+bool Pilha::vazia() const{
     if(pilha.getTam()==0){
         cout << " > Pilha Vazia\n";
     }
     return pilha.getTam()==0;
 };
+
+void Pilha::outPilha() const{
+    if(vazia()){
+        return;
+    }
+    for(int i=pilha.getTam()-1;i>=0;i--){
+            pilha.get(i).imprimirInfo();
+            cout << endl;
+    }
+}
+
 

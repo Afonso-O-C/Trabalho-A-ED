@@ -23,10 +23,14 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="include/Book.h" />
 		<Unit filename="include/Elemento.h" />
+		<Unit filename="include/Pilha.h" />
 		<Unit filename="include/slno.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Book.cpp" />
 		<Unit filename="src/Elemento.cpp" />
+		<Unit filename="src/Pilha.cpp" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

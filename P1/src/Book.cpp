@@ -9,7 +9,7 @@ Book::Book(int _id):Book(_id,"Sem nome","Desconhecido"){};
 Book::Book():Book(0,"Sem nome","Desconhecido"){};
 
 void Book::imprimirInfo() const{
-    cout << tittle << " - " << autor << " - " << getID() << endl;
+    cout << tittle << " - " << autor << " - " << getID();
 };
 
 Book::~Book()

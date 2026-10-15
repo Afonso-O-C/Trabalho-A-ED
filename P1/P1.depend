@@ -15,9 +15,21 @@
 1792069054 c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p1\include\slno.h
 	<iostream>
 
-1792068088 source:c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p1\src\book.cpp
+1792081667 source:c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p1\src\book.cpp
 	"Book.h"
 
 1792068061 c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p1\include\book.h
 	<Elemento.h>
+
+1792081623 source:c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p1\src\fila.cpp
+	"Fila.h"
+
+1792081623 c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p1\include\fila.h
+	<Book.h>
+
+1792081683 source:c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p1\src\pilha.cpp
+	"Pilha.h"
+
+1792081290 c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p1\include\pilha.h
+	<Book.h>
 

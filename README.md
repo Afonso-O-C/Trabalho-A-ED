@@ -18,3 +18,10 @@ Assim, a busca ficaria específica para cada uma das classes e não no templete 
 
 Parte 2 - Listas Encadeadas
 
+
+**Analises durante a Programação:**
+
+Na atividade, ele pede uma segunda proposta para filas, no caso acredito que a segunda proosta que ele indica é aquele com a utilização de dois ponteiros na lista sequencial, um que ficaria no começo da lista e outro que ficaria no final, isso iria alterar a complexidade, reduzindo-a para qualquer operação como O(1), mehlor caso. Talvez, seja interessante criar uma versão alternativa que o código se adaptou para ter essa fila. 
+
+Angústia: Lembrei que da para criar uma função operato[] que poderia ser usado dentro de slon.h para facilitar pegar os valores, mas infelizmente esqueci disso e daria muito trabalho trocar tudo que usa .get() até o momento.
+

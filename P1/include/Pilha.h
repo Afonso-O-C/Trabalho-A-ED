@@ -14,12 +14,15 @@ class Pilha : public Elemento
         Pilha(int _id);
         ~Pilha();
 
-        //Funções
+        //Funções gerais
         void empilhe(Book nuevo);
         void desempilha();
-        Book inTopo();
-        bool cheia();
-        bool vazia();
+        Book inTopo() const;
+        bool cheia() const;
+        bool vazia() const;
+
+        //Funções especiais
+        void outPilha() const;
 
 
 };
