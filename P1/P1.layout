@@ -7,42 +7,52 @@
 			<Cursor1 position="171" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src\Elemento.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="332" topLine="0" />
-		</Cursor>
-	</File>
 	<File name="include\slno.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="2613" topLine="30" />
+			<Cursor1 position="2383" topLine="47" />
 		</Cursor>
 		<Folding>
 			<Collapse line="18" />
 			<Collapse line="25" />
 			<Collapse line="38" />
 			<Collapse line="56" />
-			<Collapse line="75" />
 			<Collapse line="91" />
 			<Collapse line="94" />
 			<Collapse line="97" />
 			<Collapse line="102" />
+			<Collapse line="108" />
 			<Collapse line="115" />
 			<Collapse line="126" />
 		</Folding>
+	</File>
+	<File name="include\Book.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="872" topLine="0" />
+		</Cursor>
 	</File>
 	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="56" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="include\Pilha.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\Pilha.cpp" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="228" topLine="0" />
+			<Cursor1 position="495" topLine="6" />
 		</Cursor>
 	</File>
-	<File name="include\Book.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\Book.cpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="872" topLine="1" />
+			<Cursor1 position="514" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\Pilha.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="471" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\Elemento.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="332" topLine="0" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>
