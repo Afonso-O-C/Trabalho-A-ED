@@ -29,7 +29,6 @@
 		<Unit filename="include/ListaNOrd.h" />
 		<Unit filename="include/ListaOrd.h" />
 		<Unit filename="include/Pilha.h" />
-		<Unit filename="include/slno.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Book.cpp" />
 		<Unit filename="src/Elemento.cpp" />

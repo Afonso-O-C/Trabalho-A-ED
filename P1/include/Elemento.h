@@ -3,7 +3,6 @@
 
 #include<iostream>
 #include<string>//Adicionada aqui por essa ligar com todas as outras, quase todas as outras
-#include<slno.h>
 
 using namespace std;
 
