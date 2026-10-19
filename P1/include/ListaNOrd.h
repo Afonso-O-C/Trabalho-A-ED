@@ -29,6 +29,11 @@ class ListaNOrd
         void removeID(Book alvo);
         void changeID(Book alvo, Book nuevo);
 
+        //para uso em composição
+        void setLimit(int _tam); //Usar com cuidado
+        Book operator[](int id) const;
+        int getTam() const;
+        int getLimit() const;
 };
 
 #endif // LISTANORD_H

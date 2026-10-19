@@ -14,15 +14,15 @@ Fila::~Fila()
 }
 
 void Fila::enfileirar(Book nuevo){
-    fila.addf(nuevo);
+    fila.addF(nuevo);
 }
 
 void Fila::desenfileirar(){
-    fila.removei();
+    fila.removeI();
 };
 
 Book Fila::finalFila() const{
-    Book temp=fila.get(fila.getTam()-1);
+    Book temp=fila[fila.getTam()-1];
     temp.imprimirInfo();
     return temp;
 }
@@ -46,7 +46,7 @@ void Fila::imprimirInfo() const{
         return;
     }
     for(int i=0;i<fila.getTam();i++){
-        fila.get(i).imprimirInfo();
+        fila[i].imprimirInfo();
         cout << "\t";
     }
     cout << endl;

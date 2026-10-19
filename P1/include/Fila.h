@@ -2,12 +2,13 @@
 #define FILA_H
 
 #include <Book.h>
+#include<ListaNOrd.h>
 
 //Praticamente copiando Pilha com outro nome, no final apenas alteramos as funções
 class Fila : public Elemento
 {
     private:
-        lista_no<Book> fila;
+        ListaNOrd fila;
 
     public:
         //Destructor e Constructor

@@ -14,15 +14,15 @@ Pilha::~Pilha()
 }
 
 void Pilha::empilhe(Book nuevo){
-    pilha.addf(nuevo);
+    pilha.addF(nuevo);
 };
 
 void Pilha::desempilha(){
-    pilha.removef();
+    pilha.removeF();
 };
 
 Book Pilha::inTopo() const{
-    Book temp=pilha.get(pilha.getLimit()-1);
+    Book temp=pilha[pilha.getTam()-1];
     temp.imprimirInfo();
     return temp;
 };
@@ -35,10 +35,10 @@ bool Pilha::cheia() const{
 };
 
 bool Pilha::vazia() const{
-    if(pilha.getTam()==0){
+    if(!(cheia())){
         cout << " > Pilha Vazia\n";
     }
-    return pilha.getTam()==0;
+    return !(cheia());
 };
 
 void Pilha::imprimirInfo() const{
@@ -46,7 +46,7 @@ void Pilha::imprimirInfo() const{
         return;
     }
     for(int i=pilha.getTam()-1;i>=0;i--){
-            pilha.get(i).imprimirInfo();
+            pilha[i].imprimirInfo();
             cout << endl;
     }
 }

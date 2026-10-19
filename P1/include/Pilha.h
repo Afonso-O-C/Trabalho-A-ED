@@ -2,11 +2,12 @@
 #define PILHA_H
 
 #include <Book.h>
+#include<ListaNOrd.h>
 
 class Pilha : public Elemento
 {
     private:
-        lista_no<Book> pilha;
+        ListaNOrd pilha;
 
     public:
         //Básico

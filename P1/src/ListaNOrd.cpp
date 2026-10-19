@@ -93,3 +93,22 @@ void ListaNOrd::changeID(Book alvo, Book nuevo){
         cout << " > Alteração realizada\n";
     }
 };
+
+void ListaNOrd::setLimit(int _tam){
+    limit=_tam;
+    delete[] values;
+    values=new Book[limit];
+}
+
+Book ListaNOrd::operator[](int id) const{
+    return values[id];
+}
+
+int ListaNOrd::getTam() const{
+    return tam;
+};
+
+int ListaNOrd::getLimit() const{
+    return limit;
+};
+

@@ -21,22 +21,31 @@
 1792068061 c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p1\include\book.h
 	<Elemento.h>
 
-1792422108 source:c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p1\src\fila.cpp
+1792438303 source:c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p1\src\fila.cpp
 	"Fila.h"
 
-1792422089 c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p1\include\fila.h
+1792438321 c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p1\include\fila.h
 	<Book.h>
+	<ListaNOrd.h>
 
-1792422096 source:c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p1\src\pilha.cpp
+1792437665 source:c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p1\src\pilha.cpp
 	"Pilha.h"
 
-1792422075 c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p1\include\pilha.h
+1792437556 c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p1\include\pilha.h
 	<Book.h>
+	<ListaNOrd.h>
 
-1792425503 source:c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p1\src\listanord.cpp
+1792437643 source:c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p1\src\listanord.cpp
 	"ListaNOrd.h"
 
-1792425516 c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p1\include\listanord.h
+1792437641 c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p1\include\listanord.h
+	<Elemento.h>
+	<Book.h>
+
+1792426472 source:c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p1\src\listaord.cpp
+	"ListaOrd.h"
+
+1792426402 c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p1\include\listaord.h
 	<Elemento.h>
 	<Book.h>
 
