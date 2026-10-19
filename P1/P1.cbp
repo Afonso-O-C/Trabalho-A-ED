@@ -27,6 +27,7 @@
 		<Unit filename="include/Elemento.h" />
 		<Unit filename="include/Fila.h" />
 		<Unit filename="include/ListaNOrd.h" />
+		<Unit filename="include/ListaOrd.h" />
 		<Unit filename="include/Pilha.h" />
 		<Unit filename="include/slno.h" />
 		<Unit filename="main.cpp" />
@@ -34,6 +35,7 @@
 		<Unit filename="src/Elemento.cpp" />
 		<Unit filename="src/Fila.cpp" />
 		<Unit filename="src/ListaNOrd.cpp" />
+		<Unit filename="src/ListaOrd.cpp" />
 		<Unit filename="src/Pilha.cpp" />
 		<Extensions />
 	</Project>
