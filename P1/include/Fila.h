@@ -23,7 +23,7 @@ class Fila : public Elemento
         bool vazio() const;
 
         //Funções especiais
-        void outFila() const;
+        void imprimirInfo() const;
 };
 
 #endif // FILA_H

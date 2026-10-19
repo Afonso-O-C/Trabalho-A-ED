@@ -41,7 +41,7 @@ bool Pilha::vazia() const{
     return pilha.getTam()==0;
 };
 
-void Pilha::outPilha() const{
+void Pilha::imprimirInfo() const{
     if(vazia()){
         return;
     }

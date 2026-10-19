@@ -41,7 +41,7 @@ bool Fila::vazio() const{
     return fila.getTam()==0;
 }
 
-void Fila::outFila() const{
+void Fila::imprimirInfo() const{
     if(vazio()){
         return;
     }

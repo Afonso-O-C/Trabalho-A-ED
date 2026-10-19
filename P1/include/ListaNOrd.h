@@ -2,29 +2,32 @@
 #define LISTANORD_H
 
 #include<Elemento.h>
-#include<Pilha.h>
+#include<Book.h>
 
 class ListaNOrd
 {
     private:
-        lista_no<Pilha> pilhas;
+        int tam;
+        int limit;
+        Book* values;//Modificar depois para ser um dos filhos de "Elemento", se possível, embora creio que não seja
+        //lista_no<Pilha> pilhas;
 
     public:
         //Constructores e Destructors base
-        ListaNOrd(int _tam);
+        ListaNOrd(int _limit);
         ListaNOrd();
         ~ListaNOrd();
 
         //Adição e remoção simples
-        void addI(Pilha nuevo);
-        void addF(Pilha nuevo);
+        void addI(Book nuevo);
+        void addF(Book nuevo);
         void removeI();
         void removeF();
 
         //Agora as com busca de ID
-        int busca(Pilha alvo) const;
-        void removeID(Pilha alvo);
-        void changeID(Pilha alvo, Pilha nuevo);
+        int busca(Book alvo) const;
+        void removeID(Book alvo);
+        void changeID(Book alvo, Book nuevo);
 
 };
 

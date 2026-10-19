@@ -22,7 +22,7 @@ class Pilha : public Elemento
         bool vazia() const;
 
         //Funções especiais
-        void outPilha() const;
+        void imprimirInfo() const;
 
 
 };

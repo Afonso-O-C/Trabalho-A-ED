@@ -2,25 +2,31 @@
 #define LISTAORD_H
 
 #include<Elemento.h>
-#include<Fila.h>
+#include<Book.h>
 
 class ListaOrd
 {
     private:
-        lista_no<Fila> filas;
+        int tam;
+        int limit;
+        Book* values;
+        //lista_no<Fila> filas;
 
     public:
         //Constructors e Destructor
-        ListaNOrd(int _tam);
+        ListaOrd(int _tam);
         ListaOrd();
         ~ListaOrd();
 
         //Busca binária
         int buscaBiAux(int ini,int fin,int id) const;
-        int buscaBi(Fila alvo) const;
+        int buscaBi(Book alvo) const;
 
         //Adição
-        void addID(Fila nuevo);
+        void addID(Book nuevo);
+
+        //Remoção
+        void removeID(Book nuevo);
 
 
 };
