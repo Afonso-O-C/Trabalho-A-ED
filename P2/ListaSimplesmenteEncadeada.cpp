@@ -1,12 +1,12 @@
 #include <iostream>
-#include "LISTASIMPLESMENTEENCADEADA.H"
+#include "ListaSimplesmenteEncadeada.h"
 #include <string>
 
 using namespace std;
 
 int main(){
     ListaSimplesmenteEncadeada Lista;
-    int opcao;
+    int opcao = -1;
     int id;
 
 
@@ -44,7 +44,6 @@ int main(){
         } else if (opcao == 4){
             cout << "Insira o ID" << endl;
             cin >> id;
-            Lista.removerPeloId(id);
             if(Lista.removerPeloId(id) == 1){
                 cout << "ID removido " << endl;
             } else{
