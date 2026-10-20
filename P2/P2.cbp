@@ -34,11 +34,17 @@
 			<Add option="-Wall" />
 		</Compiler>
 		<Unit filename="ListaSimplesmenteEncadeada.cpp" />
+		<Unit filename="include/ABB.h" />
+		<Unit filename="include/LDECircle.h" />
 		<Unit filename="include/LDuplaEnd.h" />
 		<Unit filename="include/ListaSimplesmenteEncadeada.h" />
 		<Unit filename="include/Nos.h" />
+		<Unit filename="include/TrioDEC.h" />
+		<Unit filename="src/ABB.cpp" />
+		<Unit filename="src/LDECircle.cpp" />
 		<Unit filename="src/LDuplaEnd.cpp" />
 		<Unit filename="src/Nos.cpp" />
+		<Unit filename="src/TrioDEC.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
