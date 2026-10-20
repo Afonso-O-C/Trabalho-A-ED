@@ -16,12 +16,17 @@ class Nos
     public:
         //O básico
         Nos();
-        virtual ~Nos();
+        ~Nos();
 
         //Setters e Getters
         void setKey(int nuevo);
         void setNext(Nos* nuevo);
         void setAnt(Nos* nuevo);
+
+        int getKey() const;
+        Nos* getNext() const;
+        Nos* getPrev() const;
+
 };
 
 #endif // NOS_H

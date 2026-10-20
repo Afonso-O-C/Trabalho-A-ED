@@ -23,3 +23,16 @@ void Nos::setNext(Nos* nuevo){
 void Nos::setAnt(Nos* nuevo){
     ant=nuevo;
 };
+
+int Nos::getKey() const{
+    return chave;
+};
+
+Nos* Nos::getNext() const{
+    return prox;
+};
+
+Nos* Nos::getPrev() const{
+    return ant;
+};
+

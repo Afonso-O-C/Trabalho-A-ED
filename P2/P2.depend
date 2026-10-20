@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1792497632 source:c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p2\listasimplesmenteencadeada.cpp
+	<iostream>
+	<string>
+	"ListaSimplesmenteEncadeada.h"
+
+1792458864 c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p2\include\listasimplesmenteencadeada.h
+
+1792498344 source:c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p2\src\nos.cpp
+	"Nos.h"
+
+1792501626 c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p2\include\nos.h
+	<iostream>
+
