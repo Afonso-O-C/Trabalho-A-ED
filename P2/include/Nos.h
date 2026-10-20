@@ -23,9 +23,9 @@ class Nos
         void setNext(Nos* nuevo);
         void setAnt(Nos* nuevo);
 
-        int getKey() const;
-        Nos* getNext() const;
-        Nos* getPrev() const;
+        int getKey();
+        Nos* getNext();
+        Nos* getPrev();
 
 };
 

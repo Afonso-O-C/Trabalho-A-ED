@@ -24,15 +24,15 @@ void Nos::setAnt(Nos* nuevo){
     ant=nuevo;
 };
 
-int Nos::getKey() const{
+int Nos::getKey(){
     return chave;
 };
 
-Nos* Nos::getNext() const{
+Nos* Nos::getNext(){
     return prox;
 };
 
-Nos* Nos::getPrev() const{
+Nos* Nos::getPrev(){
     return ant;
 };
 
