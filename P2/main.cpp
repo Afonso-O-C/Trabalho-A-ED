@@ -35,8 +35,7 @@ int main(){
         } else if (opcao == 3){
             cout << "Insira o ID" << endl;
             cin >> id;
-            Lista.buscarPeloId(id);
-            if(Lista.buscarPeloId(id) != NULL){
+            if(Lista.buscarPeloId(id)){
                 cout << "Encontramos o ID: " << id << endl;
             } else{
                 cout << "ID nao encontrado " << endl;
