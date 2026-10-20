@@ -30,7 +30,7 @@ class LDuplaEnd
         //Remoção
         void removeI();
         void removeF();
-
+        void removeID(Nos* alvo);
 
 };
 

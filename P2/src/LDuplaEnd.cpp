@@ -8,6 +8,7 @@ LDuplaEnd::LDuplaEnd()
 
 LDuplaEnd::~LDuplaEnd()
 {
+    cout << " > LDE Encerrada\n";
     //dtor
 }
 
@@ -98,7 +99,23 @@ void LDuplaEnd::removeF(){
         temp=nullptr;
         cout << " > Valor eliminado\n";
     }
+};
 
+void LDuplaEnd::removeID(Nos* alvo){
+    Nos* temp=busca(alvo);
+    if(temp->getKey()!=alvo->getKey()){
+        cout << " Erro > Valor no encontrado\n";
+        return;
+    }
+    else{
+        if(temp->getNext()!=nullptr){
+            temp->getNext()->setAnt(temp->getPrev());
+        }
+        temp->getPrev()->setNext(temp->getNext());
+        delete temp;
+        temp=nullptr;
+        cout << " > Valor eliminado\n";
+    }
 };
 
 
