@@ -35,6 +35,8 @@
 		</Compiler>
 		<Unit filename="ListaSimplesmenteEncadeada.cpp" />
 		<Unit filename="include/ListaSimplesmenteEncadeada.h" />
+		<Unit filename="include/Nos.h" />
+		<Unit filename="src/Nos.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
