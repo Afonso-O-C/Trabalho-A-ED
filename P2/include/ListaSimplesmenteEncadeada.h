@@ -5,17 +5,17 @@
 class ListaSimplesmenteEncadeada
 {
     private:
-        //Aqui está é onde definimos a struct No Encapsulada
+        //Aqui estÃ¡ Ã© onde definimos a struct No Encapsulada
         typedef struct No{
             int id;
             struct No* proximo;
         }No;
 
-        // Definimos o ponteiro do nó cabeça
+        // Definimos o ponteiro do nÃ³ cabeÃ§a
         No* cabeca;
 
     public:
-        //É necessário definir o construtor No cabeça para começar as operações das Listas Encadeadas
+        //Ã‰ necessÃ¡rio definir o construtor No cabeÃ§a para comeÃ§ar as operaÃ§Ãµes das Listas Encadeadas
         ListaSimplesmenteEncadeada(){
             cabeca = new No;
             cabeca->proximo = NULL;
@@ -33,7 +33,7 @@ class ListaSimplesmenteEncadeada
                     auxiliar = auxiliar->proximo;
             }
 
-            No* novo = new No;;
+            No* novo = new No;
             novo->id = id;
             novo->proximo = NULL;
             auxiliar->proximo = novo;
