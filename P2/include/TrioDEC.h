@@ -3,7 +3,7 @@
 
 #include<LDECircle.h>
 
-//Explicando: Aqui optei por colocar pilhas, filas e deques(ainda não coloquei) em apenas um .h, eles todos tem uma função abstrata que
+//Explicando: Aqui optei por colocar pilhas, filas e deques(ainda nï¿½o coloquei) em apenas um .h, eles todos tem uma funï¿½ï¿½o abstrata que
 //Tem como atributo uma LDEC, ou seja, todas tem e todas usam.
 
 class ModelAbstrac
@@ -11,10 +11,11 @@ class ModelAbstrac
     protected:
         LDECircle estrutura;
     public:
-        virtual void add(int nuevo);
-        virtual void dda(); //Remoção
+        virtual void add(int nuevo) = 0;
+        virtual void dda() = 0; //Remoï¿½ï¿½o
+        virtual ~ModelAbstrac() {}
 
-        LDECircle getBase();
+        LDECircle& getBase();
 };
 
 class Pilha:public ModelAbstrac

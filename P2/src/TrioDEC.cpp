@@ -1,6 +1,6 @@
 #include<TrioDEC.h>
 
-LDECircle ModelAbstrac::getBase(){
+LDECircle& ModelAbstrac::getBase(){
     return estrutura;
 }
 

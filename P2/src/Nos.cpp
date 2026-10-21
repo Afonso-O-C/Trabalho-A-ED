@@ -2,7 +2,7 @@
 
 Nos::Nos()
 {
-    prox=nullptr;//Pesquisei, esse nullptr é o mesmo que NULL pelo que vi
+    prox=nullptr;//Pesquisei, esse nullptr ï¿½ o mesmo que NULL pelo que vi
     ant=nullptr;
     //ctor
 }
@@ -35,4 +35,3 @@ Nos* Nos::getNext(){
 Nos* Nos::getPrev(){
     return ant;
 };
-

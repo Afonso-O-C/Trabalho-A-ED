@@ -22,7 +22,7 @@ void LDECircle::addF(int nuevo){
     getHead()->getPrev()->setNext(reciente);
     getHead()->setAnt(reciente);
     cout << " > Valor adicionado\n";
-};
+}; // O(1)
 
 void LDECircle::removeF(){
     if(getHead()->getPrev()==getHead()){
@@ -37,4 +37,4 @@ void LDECircle::removeF(){
         temp=nullptr;
         cout << " > Valor eliminado\n";
     }
-};
+}; // O(1)

@@ -3,8 +3,8 @@
 
 #include<Nos.h>
 
-//Árvore Binária de Busca, vamos usar nos, imagine o prox como o "direita" e o ant como o "esquerda" da árvore
-//Aproveitar dessa forma a lógica e tudo mais
+//ï¿½rvore Binï¿½ria de Busca, vamos usar nos, imagine o prox como o "direita" e o ant como o "esquerda" da ï¿½rvore
+//Aproveitar dessa forma a lï¿½gica e tudo mais
 
 class ABB
 {
@@ -19,8 +19,11 @@ class ABB
         //Busca
         Nos* busca(int alvo,Nos* paso) const;
 
-        //Adição
+        //Adiï¿½ï¿½o
         void add(int nuevo);
+
+        //Remocao
+        void remov(int alvo, Nos* paso);
 
 
 };

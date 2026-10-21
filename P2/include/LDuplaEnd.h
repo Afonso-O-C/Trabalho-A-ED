@@ -16,18 +16,18 @@ class LDuplaEnd
         //Getters
         Nos* getHead() const;
 
-        //Função de deslocamento pela lista(Não sei porque fiz elas)
+        //Funï¿½ï¿½o de deslocamento pela lista(Nï¿½o sei porque fiz elas)
         Nos* walkEnd(Nos* paso) const;
         Nos* moonWalk(Nos* paso) const;
 
-        //Função de busca
+        //Funï¿½ï¿½o de busca
         Nos* busca(Nos* alvo)const;
 
-        //Adição
+        //Adiï¿½ï¿½o
         void addI(int nuevo);
         void addF(int nuevo);
 
-        //Remoção
+        //Remoï¿½ï¿½o
         void removeI();
         void removeF();
         void removeID(Nos* alvo);
