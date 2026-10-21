@@ -1,5 +1,6 @@
 #include "ListaSimplesmenteEncadeada.h"
-
+#include <iostream>
+#include <string>
 // Construtor: Inicia o nó cabeça
 // Complexidade Temporal: O(1)
 ListaSimplesmenteEncadeada::ListaSimplesmenteEncadeada() {
@@ -64,4 +65,14 @@ int ListaSimplesmenteEncadeada::removerPeloId(int id) {
         return 1;
     }
     return 0; // ID não encontrado
+}
+
+// Complexidade Temporal: O(n) - percorre todos os nos
+void ListaSimplesmenteEncadeada::imprimir() const {
+    std::cout << "[";
+    for (No* auxiliar = cabeca->proximo; auxiliar != nullptr; auxiliar = auxiliar->proximo) {
+        std::cout << auxiliar->id;
+        if (auxiliar->proximo != nullptr) std::cout << " -> ";
+    }
+    std::cout << "]" << std::endl;
 }

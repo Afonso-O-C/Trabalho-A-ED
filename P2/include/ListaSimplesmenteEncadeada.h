@@ -24,6 +24,7 @@ class ListaSimplesmenteEncadeada
     void inserirNoFim(int id);
     bool buscarPeloId(int id) const;
     int removerPeloId(int id);
+    void imprimir() const;
 
     protected:
 
