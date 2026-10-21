@@ -1,10 +1,10 @@
 [README.md](https://github.com/user-attachments/files/33494783/README.md)
 
 Grupo:
-Afonso
-Eduardo de Melo
-Matheus Tuppan
-Miguel
+Afonso; 
+Eduardo de Melo; 
+Matheus Tuppan; 
+Miguel.
 
 **Construção da Ideia Geral:** 
 
