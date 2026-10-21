@@ -24,7 +24,7 @@ Nos* ABB::busca(int alvo,Nos* paso) const{
     else{
         return paso;
     }
-};
+};//O(log2n)
 
 void ABB::add(int nuevo){
     if(nosQtd<=0){
@@ -34,6 +34,18 @@ void ABB::add(int nuevo){
         cout << " > Valor criado\n";
     }
     else{
-            //Colocar aqui a busca, new com novo valor e etc
+        //Não vai ter confirmação de valores repetidos
+        Nos* reciente=new Nos;
+        reciente->setKey(nuevo);
+        Nos* temp=busca(nuevo,cab);
+        if((temp->getPrev()==nullptr)&&(nuevo<temp->getKey())){
+            temp->setAnt(reciente);
+        }
+        else{
+            temp->setNext(reciente);
+        }
+        cout << " > Valor adicionado\n";
     }
-};
+};//O(log2n)
+
+

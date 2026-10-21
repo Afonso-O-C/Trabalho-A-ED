@@ -6,27 +6,27 @@
 
 1792458864 c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p2\include\listasimplesmenteencadeada.h
 
-1792529777 source:c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p2\src\nos.cpp
+1792585346 source:c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p2\src\nos.cpp
 	"Nos.h"
 
 1792529764 c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p2\include\nos.h
 	<iostream>
 
-1792526908 source:c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p2\src\lduplaend.cpp
+1792585346 source:c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p2\src\lduplaend.cpp
 	"LDuplaEnd.h"
 
-1792526220 c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p2\include\lduplaend.h
+1792585346 c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p2\include\lduplaend.h
 	<Nos.h>
 
-1792528048 source:c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p2\src\ldecircle.cpp
+1792585346 source:c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p2\src\ldecircle.cpp
 	"LDECircle.h"
 
 1792528060 c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p2\include\ldecircle.h
 	<LDuplaEnd.h>
 
-1792529950 source:c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p2\src\triodec.cpp
+1792585346 source:c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p2\src\triodec.cpp
 	<TrioDEC.h>
 
-1792530122 c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p2\include\triodec.h
+1792585346 c:\users\afons\onedrive\desktop\eng. computaçâo\algoritmo e estrutura da dados\trabalho 2\p2\include\triodec.h
 	<LDECircle.h>
 

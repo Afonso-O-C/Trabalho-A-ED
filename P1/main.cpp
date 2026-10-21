@@ -19,7 +19,7 @@ int main(){
     //Elemento teste;
 
     //teste.getID();
-    int d=100;
+    //int d=100;
     {
     Book livro(23,"Jão","Pedro");
     livro.imprimirInfo();
@@ -30,7 +30,7 @@ int main(){
     }
     //lista_no<bool> testes2;
 
-    int op1=1,op2=1;
+    int op1=1;
 
 
     while(op1!=0){

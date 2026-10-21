@@ -23,7 +23,7 @@ class ABB
         void add(int nuevo);
 
         //Remocao
-        void remov(int alvo, Nos* paso);
+        //void remov(int alvo, Nos* paso);
 
 
 };
